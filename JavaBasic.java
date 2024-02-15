@@ -3,3 +3,4 @@ public class JavaBasic {
         System.out.println("Hello world");
     }
 }
+//boilerplate code
