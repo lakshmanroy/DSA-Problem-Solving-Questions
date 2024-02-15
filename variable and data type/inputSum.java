@@ -9,7 +9,8 @@ public class inputSum {
         int b= sc.nextInt();
 
         int sum= a+b;
+        int product=a*b;
         System.out.println("sum of number:"+sum);
+        System.out.println("product of number:"+product);
     }
-    
 }
