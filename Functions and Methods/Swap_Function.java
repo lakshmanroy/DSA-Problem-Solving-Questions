@@ -23,10 +23,10 @@ public class Swap_Function {
         int y=5;
 
         int prod=multiply(x, y);
-        System.out.println("multiply is:" +prod);
+        System.out.println("a*b=" +prod);
 
         prod=multiply(10, 20);
-        System.out.println("multiply is:" +prod);
+        System.out.println("a*b=" +prod);
         
     }
 }
