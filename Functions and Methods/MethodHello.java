@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+//syntax with parameter
 public class MethodHello {
     public static void HelloWorld(){
         System.out.println("Hello world");
