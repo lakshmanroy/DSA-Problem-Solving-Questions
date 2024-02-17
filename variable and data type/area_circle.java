@@ -6,6 +6,5 @@ public class area_circle {
         float marks=99.99f;
         int marks1= (int)marks;
         System.out.println(marks1);
-    }
-    
+    } 
 }
