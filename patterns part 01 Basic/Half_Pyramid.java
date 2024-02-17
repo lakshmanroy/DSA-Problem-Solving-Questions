@@ -9,3 +9,4 @@ public class Half_Pyramid {
         }
     }
 }
+
