@@ -1,6 +1,7 @@
 package Arrays;
 
 public class LargestArray {
+    //largest number
     public static int largestNumber(int number[]){
         int largest=Integer.MIN_VALUE;
         for(int i=0;i<number.length;i++){
