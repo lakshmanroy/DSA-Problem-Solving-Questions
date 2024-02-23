@@ -16,7 +16,6 @@ public class SubArray {
     }
     public static void main(String[] args) {
         int number[]= {2,4,6,8,10};
-        printSubArray(number);
-        
+        printSubArray(number);  
     }
 }
