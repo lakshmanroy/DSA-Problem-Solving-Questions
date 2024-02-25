@@ -1,5 +1,5 @@
 package Arrays;
-
+//max subarray
 public class MaxSubArrayKadans {
     public static void kadans(int number[]){
         int cs=0;
