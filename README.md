@@ -8,9 +8,6 @@ This repository contains a curated list of DSA problems along with their solutio
 ## Table of Contents
 - [Why DSA Problem Solving?](#why-dsa-problem-solving)
 - [How to Use This Repository](#how-to-use-this-repository)
-- [Contributing](#contributing)
-- [Support](#support)
-- [License](#license)
 
 ## Why DSA Problem Solving? 🤔
 Mastering Data Structures and Algorithms is essential for excelling in technical interviews, competitive programming, and building efficient software solutions. By practicing problem-solving, you'll enhance your analytical thinking, algorithmic skills, and coding proficiency.💪
