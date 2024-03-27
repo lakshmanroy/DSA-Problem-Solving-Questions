@@ -25,7 +25,7 @@ public class CountingSort {
     }
     System.out.println();
   }
-    public static void main(String[] args) {
+    public static void main(String[] args) { 
         int arr[]= {5,4,1,3,2};
         countSort(arr);
         printArr(arr);
