@@ -6,7 +6,7 @@ public class BuyAndSell {
         int  maxProfit=0;
         for(int i=0;i<prices.length;i++){
             if (buyPrice<prices[i]) {
-                int profit= prices[i]-buyPrice;
+                int profit= prices[i]-buyPrice; //today profit
                 maxProfit=Math.max(maxProfit,profit);
             }else{
                 buyPrice= prices[i];
