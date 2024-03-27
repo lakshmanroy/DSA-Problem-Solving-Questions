@@ -1,7 +1,7 @@
 package Arrays;
 
 public class TrappedRainwater {
-    public static int trappedWater(int height[]){
+    public static int trappedWaters(int height[]){
         int n=height.length;
         int leftMax[]= new int[n];
         leftMax[0]=height[0];
@@ -22,7 +22,7 @@ public class TrappedRainwater {
     }
     public static void main(String[] args) {
         int height[]= {4,2,0,6,3,2,5};
-        trappedWater(height);
+        trappedWaters(height);
     }
     
 }
