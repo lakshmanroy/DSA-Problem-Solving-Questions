@@ -8,7 +8,7 @@ public class InsertionSort {
         for(int i=1;i<arr.length;i++){
             int curr=arr[i];
             int prev=i-1;
-            //finding out the correct pos to insert
+            //finding out the correct pos to insert.
             while (prev>=0 && arr[prev]>=curr) {
                 arr[prev+1]=arr[prev];
                 prev--;
