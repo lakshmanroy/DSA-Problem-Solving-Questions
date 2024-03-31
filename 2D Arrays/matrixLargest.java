@@ -22,7 +22,16 @@ public class matrixLargest {
                 }
             }
         }
+        int smallest = matrix[0][0];
+        for(int i = 0; i < n; i++) {
+            for(int j = 0; j < m; j++) {
+                if(matrix[i][j] < smallest) {
+                    smallest = matrix[i][j];
+                }
+            }
+        }
         
         System.out.println("The largest number in the matrix is: " + largest);
-    }
+        System.out.println("The smallest number in the matrix is: " + smallest);
+}
 }
