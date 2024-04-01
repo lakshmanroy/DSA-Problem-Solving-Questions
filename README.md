@@ -22,7 +22,4 @@ Mastering Data Structures and Algorithms is essential for excelling in technical
 ## Contributing 🤝
 Contributions are highly encouraged! Whether it's adding new problems, providing more solutions, fixing bugs, or improving documentation, your contributions are valuable in making this repository a comprehensive resource for everyone. Refer to the [Contribution Guidelines](CONTRIBUTING.md) for more details.
 
-## Support 🌟
-If you find this repository helpful, show your support by giving it a star ⭐️. Feel free to reach out with any questions, feedback, or suggestions by opening an issue.
-
 Let's solve problems, learn together, and level up our DSA skills!. 💻✨
