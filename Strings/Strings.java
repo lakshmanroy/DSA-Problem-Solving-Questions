@@ -8,6 +8,7 @@ public class Strings {
         String str2= new String("abcd");
 
         //Strings are IMMUTABLE
+
     }
     
 }
