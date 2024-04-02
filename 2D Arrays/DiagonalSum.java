@@ -12,6 +12,8 @@ public class DiagonalSum {
         //         }
         //     }
         // }
+
+        // second matrix method
         for(int i=0;i<matrix.length;i++){
             //pd
             sum+= matrix[i][i];
