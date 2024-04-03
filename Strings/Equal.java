@@ -4,7 +4,7 @@ public class Equal {
     public static void main(String[] args) {
         String str1= "Tonny";
         String str2= "Tonny";
-        String str3= "Tonny";
+        String str3= new String("Tonny");
 
         if (str1==str2) {
             System.out.println("String are equal");
