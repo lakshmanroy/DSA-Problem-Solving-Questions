@@ -4,7 +4,7 @@ public class ClearIBit {
         return n&bitMask;
     }
     public static void main(String[] args) {
-        System.out.println(clearIBits(15, 2));
+        System.out.println(clearIBits(15, 2)); 
         
     }
 }
