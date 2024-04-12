@@ -11,8 +11,8 @@ public class Getters_Setters {
 }
 
 class Pen {
-    String color;
-    int tip;
+    private String color;
+    private int tip;
 
     String getColor() {
         return this.color;
