@@ -7,6 +7,8 @@ public class Getters_Setters {
         System.out.println(p1.getColor());
         p1.setTip(10);
         System.out.println(p1.getTip());
+        p1.setColor("Yellow");
+        System.out.println(p1.getColor());
     }
 }
 
