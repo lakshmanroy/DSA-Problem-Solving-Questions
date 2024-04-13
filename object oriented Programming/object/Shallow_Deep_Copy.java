@@ -15,9 +15,7 @@ public class Shallow_Deep_Copy {
         for (int i = 0; i < 3; i++) {
             System.out.println(s2.marks[i] + " ");
         }
-
     }
-
 }
 
 class Student {
