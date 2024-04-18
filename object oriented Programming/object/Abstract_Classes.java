@@ -14,7 +14,6 @@ public class Abstract_Classes {
     }
 
 }
-
 abstract class Animals {
     String color;
 

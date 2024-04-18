@@ -12,7 +12,7 @@ public class Static_keyword {
 class Student {
     String name;
     int roll;
-
+ 
     static String scholName;
 
     void setName(String name) {
