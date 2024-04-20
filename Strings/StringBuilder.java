@@ -1,4 +1,5 @@
 package Strings;
+
 import java.util.*;
 
 public class StringBuilder {
@@ -10,7 +11,12 @@ public class StringBuilder {
         System.out.println(sb);
     }
 
-    private void append(char ch) {
+    public StringBuilder append(char ch) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'append'");
+    }
+
+    public StringBuilder append(StringBuilder newStr) {
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'append'");
     }
