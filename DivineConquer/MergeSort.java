@@ -1,5 +1,3 @@
-package DivineConquer;
-
 public class MergeSort {
     public static void mergeSort(int arr[]) {
         if (arr.length <= 1) {
