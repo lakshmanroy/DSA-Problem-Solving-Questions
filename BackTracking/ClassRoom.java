@@ -1,4 +1,3 @@
-package BackTracking;
 
 public class ClassRoom {
     public static void changeArr(int arr[], int i, int val) {
