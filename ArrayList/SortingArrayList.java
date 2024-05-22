@@ -21,6 +21,8 @@ public class SortingArrayList {
         Collections.sort(list);
         System.out.println(list);
 
+        System.out.println(list.size());
+
         // descending
         Collections.sort(list, Collections.reverseOrder());
         System.out.println(list);
