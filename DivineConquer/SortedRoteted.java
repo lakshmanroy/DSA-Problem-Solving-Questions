@@ -5,7 +5,7 @@ public class SortedRoteted {
         }
         // kaam
         int mid = si + (ei - si) / 2;
-
+ 
         // case found
         if (arr[mid] == tar) {
             return mid;
