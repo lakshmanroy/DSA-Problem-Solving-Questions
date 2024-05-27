@@ -20,5 +20,6 @@ public class Multi_Dimentional {
             }
             System.out.println();
         }
+        System.out.println(mainList);
     }
 }
