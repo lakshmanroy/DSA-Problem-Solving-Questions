@@ -15,6 +15,6 @@ Mastering Data Structures and Algorithms is essential for excelling in technical
 4. **Attempt Challenges Once you've grasped the concepts, challenge yourself to solve the problems independently before checking the solutions.
 
 ## Contributing 🤝
-Contributions are highly encouraged! Whether it's adding new problems, providing more solutions, fixing bugs, or improving documentation, your contributions are valuable in making this repository a comprehensive,resource for everyone. Refer to the for more details..
+Contributions are highly encouraged! Whether it's adding new problems, providing more solutions, fixing bugs, or improving documentation, your contributions are valuable in making this repository a comprehensive,resource for everyone. Refer to the for more details.
 
 Let's solve problems learn together, and level up our DSA skills!.. 💻
