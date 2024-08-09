@@ -9,7 +9,7 @@ This repository contains a curated list of DSA problems along with their solutio
 Mastering Data Structures and Algorithms is essential for excelling in technical interviews, competitive programming, and building efficient software solutions. By practicing problem-solving, you'll enhance your analytical thinking, algorithmic skills, and coding proficiency.💪
 
 ## How to Use This Repository 📚
-1. *Explore Problems:** Browse through the folders to find a wide range of DSA problems categorized by topics such as Arrays, Linked Lists, Trees, Graphs, Sorting, Searching, and more..
+1. **Explore Problems:** Browse through the folders to find a wide range of DSA problems categorized by topics such as Arrays, Linked Lists, Trees, Graphs, Sorting, Searching, and more..
 2. **Choose a Language:** Each problem may have solutions provided in different programming languages. Pick a language you're comfortable with or wish to learn.
 3. **Study Solutions:** Review the solutions provided for each problem. Understand the approach, analyze the code, and identify optimizations.
 4. **Attempt Challenges Once you've grasped the concepts, challenge yourself to solve the problems independently before checking the solutions.
