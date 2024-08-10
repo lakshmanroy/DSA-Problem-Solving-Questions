@@ -17,4 +17,4 @@ Mastering Data Structures and Algorithms is essential for excelling in technical
 ## Contributing 🤝
 Contributions are highly encouraged! Whether it's adding new problems, providing more solutions, fixing bugs, or improving documentation, your contributions are valuable in making this repository a comprehensive,resource for everyone. Refer to the for more details.
 
-Let's solve problems learn together, and level up our DSA skills. 💻
+Let's solve problems learn together and level up our DSA skills. 💻
