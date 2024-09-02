@@ -6,7 +6,7 @@ Welcome to DSA Problem Solving Questions repository! This collection of coding c
 This repository contains a curated list of DSA problems along with their solutions in various programming languages. Whether you're a beginner or an experienced coder, you'll find challenges to push your problem-solving abilities to the next level. 💡
 
 ## Why DSA Problem Solving? 🤔
-Mastering Data Structures and Algorithms is essential for excelling in technical interviews, competitive programming, and building efficient software solutions. By practicing problem-solving, you'll enhance your analytical thinking, algorithmic skills, and coding proficiency..💪
+Mastering Data Structures and Algorithms is essential for excelling in technical interviews, competitive programming, and building efficient software solutions. By practicing problem-solving, you'll enhance your analytical thinking, algorithmic skills, and coding proficiency.💪
 
 ## How to Use This Repository 📚
 1. **Explore Problems:** Browse through the folders to find a wide range of DSA problems categorized by topics such as Arrays, Linked Lists, Trees, Graphs, Sorting, Searching, and more.
