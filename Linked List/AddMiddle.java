@@ -11,9 +11,11 @@ public class AddMiddle {
 
     public static Node head;
     public static Node tail;
+    public static int size;
 
     public void AddFirst(int data) {
         Node newNode = new Node(data);
+        size++;
         if (head == null) {
             head = tail = newNode;
             return;
@@ -24,6 +26,7 @@ public class AddMiddle {
 
     public void AddLast(int data) {
         Node newNode = new Node(data);
+        size++;
         if (head == null) {
             head = tail = newNode;
             return;
@@ -46,7 +49,9 @@ public class AddMiddle {
     }
 
     public static void add(int idx,int data){
+        
         Node newNode=new Node(data);
+        size++;
         Node temp=head;
         int i=0;
         while(i<idx-1){
@@ -61,9 +66,10 @@ public class AddMiddle {
         AddMiddle ll = new AddMiddle();
         ll.AddFirst(2);
         ll.AddFirst(1);
-        ll.AddLast(3);
         ll.AddLast(4);
-        ll.add(2, 9);
+        ll.AddLast(5);
+        ll.add(2, 3);
         ll.print();
+       System.out.println(ll.size);
     }
 }
