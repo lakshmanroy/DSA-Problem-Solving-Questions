@@ -1,4 +1,4 @@
-public class RemoveLinkedList {
+public class RemoveFirstLinkedList {
     public static class Node {
         int data;
         Node next;
@@ -63,6 +63,16 @@ public class RemoveLinkedList {
     }
 
     public int removeFirst(){
+        if(size==0){
+            System.out.println("LL is empty");
+            return Integer.MIN_VALUE;
+        }
+        else if(size==1){
+           int val=head.data;
+           head=tail=null;
+           size=0;
+           return val;
+        }
      int val=head.data;
      head=head.next;
      return val;
@@ -70,7 +80,7 @@ public class RemoveLinkedList {
     }
 
     public static void main(String[] args) {
-        RemoveLinkedList ll = new RemoveLinkedList();
+        RemoveFirstLinkedList ll = new RemoveFirstLinkedList();
         ll.AddFirst(2);
         ll.AddFirst(1);
         ll.AddLast(4);
