@@ -1,77 +1,84 @@
 public class RemoveCycle {
-    public static class Node{
+    public class Node {
         int data;
         Node next;
 
-        Node(int data){
-            this.data=data;
-            this.next=null;
+        Node(int data) {
+            this.data = data;
+            this.next = null;
         }
     }
-    public static Node head;
-    public static Node tail;
 
-    public static boolean isCycle(){
-        Node slow=head;
-        Node fast=head;
+    public Node head;
 
-        while(fast!=null && fast.next!=null){
-            slow=slow.next;
-            fast=fast.next.next; 
+    // Helper function to find the middle of the linked list
+    private Node getMid(Node head) {
+        Node slow = head;
+        Node fast = head.next;
 
-            if(slow==fast){
-                return true;
-            }
+        while (fast != null && fast.next != null) {
+            slow = slow.next;
+            fast = fast.next.next;
         }
-        return false;
+        return slow;  // mid node
     }
 
-
-    public static void removeCycle(){
-
-       //detect cycle
-
-        Node slow=head;
-        Node fast=head;
-
-        boolean cycle=false;
-        while(fast!=null && fast.next!=null){
-            slow=slow.next;
-            fast=fast.next.next;
-
-            if(fast==slow){
-                cycle=true;
-                break;
-            }
+    // Merge sort function
+    public Node mergeSort(Node head) {
+        // Base case: if head is null or there's only one element
+        if (head == null || head.next == null) {
+            return head;
         }
-        if(cycle==false){
-            return;
-        }
-        //finding meeting point
 
-        slow=head;
-        Node prev=null;
-        while(slow!=fast){
-            prev=fast;
-            slow=slow.next;
-            fast=fast.next;
-        }
-        //remove cycle ->last.next=null
-        prev.next=null;
+        // Find the middle of the list
+        Node mid = getMid(head);
+
+        // Split the list into two halves
+        Node rightHead = mid.next;
+        mid.next = null;
+
+        // Recursively sort both halves
+        Node newLeft = mergeSort(head);
+        Node newRight = mergeSort(rightHead);
+
+        // Merge the sorted halves
+        return merge(newLeft, newRight);
     }
+
+    // Merge two sorted linked lists
+    public Node merge(Node left, Node right) {
+        // Base cases
+        if (left == null) return right;
+        if (right == null) return left;
+
+        Node result;
+
+        // Compare the data of the two lists
+        if (left.data <= right.data) {
+            result = left;
+            result.next = merge(left.next, right);
+        } else {
+            result = right;
+            result.next = merge(left, right.next);
+        }
+
+        return result;
+    }
+
     public static void main(String[] args) {
-        head=new Node(1);
-        Node temp=new Node(2);
-        head.next=temp;
-        head.next.next=new Node(3);
-        head.next.next.next=temp;
+        RemoveCycle list = new RemoveCycle();
+        list.head = list.new Node(4);
+        list.head.next = list.new Node(2);
+        list.head.next.next = list.new Node(1);
+        list.head.next.next.next = list.new Node(3);
 
-        //1->2->3->2
- 
-       System.out.println(isCycle());
-       removeCycle();
-       System.out.println(isCycle());
+        list.head = list.mergeSort(list.head);
 
-
+        // Print the sorted list
+        Node temp = list.head;
+        while (temp != null) {
+            System.out.print(temp.data + "->");
+            temp = temp.next;
+        }
     }
 }
