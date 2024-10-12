@@ -6,6 +6,8 @@ public class CollectionFramework {
         ll.addLast(2);
         ll.addFirst(0);
 
+        //0->1->2->
+
         System.out.println(ll);
         ll.removeLast();
         ll.removeFirst();
