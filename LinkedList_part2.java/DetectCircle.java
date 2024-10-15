@@ -1,4 +1,3 @@
-
 public class DetectCircle {
     public static class Node{
         int data;
