@@ -52,6 +52,30 @@ public class DoublyLinkedList {
       size--;
       return val;
     }
+    public int removoLast(){
+        if(head==null){
+            System.out.println("DLL is Empty");
+            return Integer.MIN_VALUE;
+
+        }
+        if(size==1){
+            int val=head.data;
+            head=tail=null;
+            size--;
+            return val;
+        }
+        //size-2
+        Node prev=head;
+        for(int i=0;i<size-2;i++){
+            prev=prev.next;
+        }
+        int val=prev.next.data;
+        prev.next=null;
+        tail=prev;
+        size--;
+        return val;
+
+    }
 
     public static void main(String[] args) {
         DoublyLinkedList dll=new DoublyLinkedList();
@@ -63,6 +87,10 @@ public class DoublyLinkedList {
         System.out.println(dll.size);
 
         dll.removeFirst();
+        dll.print();
+        System.out.println(dll.size);
+
+        dll.removoLast();
         dll.print();
         System.out.println(dll.size);
     }
