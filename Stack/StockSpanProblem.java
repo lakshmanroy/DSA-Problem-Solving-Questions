@@ -1,8 +1,6 @@
 import java.util.Stack;
 
 public class StockSpanProblem {
-
-    // Method to calculate stock span
     public static void stockSpan(int stocks[], int span[]) {
         // Stack to store indices of stocks
         Stack<Integer> s = new Stack<>();
