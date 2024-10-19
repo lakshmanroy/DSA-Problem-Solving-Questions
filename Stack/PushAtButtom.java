@@ -1,6 +1,7 @@
 import java.util.*;
 public class PushAtButtom {
     public static void PushAtButtom(Stack<Integer>s,int data){
+        //base case
         if(s.isEmpty()){
             s.push(data);
             return;
