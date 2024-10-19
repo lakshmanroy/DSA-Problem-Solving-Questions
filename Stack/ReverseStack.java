@@ -3,7 +3,7 @@ import java.util.Stack;
 
 public class ReverseStack {
      // Method to insert an element at the bottom of the stack
-     public static void insertAtBottom(Stack<Integer> s, int data) {
+     public static void PushAtButtom(Stack<Integer> s, int data) {
         // Base case: if the stack is empty, push the data
         if (s.isEmpty()) {
             s.push(data);
@@ -12,7 +12,7 @@ public class ReverseStack {
 
         // Recursive case: Pop the top element and insert data at the bottom
         int top = s.pop();
-        insertAtBottom(s, data);
+        PushAtButtom(s, data);
         
         // Push the previously popped element back on the stack
         s.push(top);
@@ -32,7 +32,7 @@ public class ReverseStack {
         reverseStack(s);
 
         // Insert the popped element at the bottom of the reversed stack
-        insertAtBottom(s, top);
+        PushAtButtom(s, top);
     }
 
     public static void main(String[] args) {
