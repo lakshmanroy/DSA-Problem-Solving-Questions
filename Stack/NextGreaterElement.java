@@ -31,3 +31,8 @@ public class NextGreaterElement {
         System.out.println();
     }
 }
+
+//next grater right
+//next grater left
+//next smallest right and side
+//next smllseat left
