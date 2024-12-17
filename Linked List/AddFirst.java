@@ -10,7 +10,6 @@ public class AddFirst {
             this.next = null;
         }
     }
-
     public static Node head;
     public static Node tail;
 
